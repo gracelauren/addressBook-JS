@@ -11,6 +11,7 @@
   <script type="text/javascript" src="js/turnjs4/extras/modernizr.2.5.3.min.js"></script>
   <script type="text/javascript" src="js/turnjs4/lib/hash.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
   <link href="css/styles.css" rel="stylesheet">
   <script type="text/javascript" src="js/scripts.js"></script>
 
@@ -25,6 +26,7 @@
         <div class="hard"><h1>My Address Book</h1></div>
         <div class="hard"></div>
         <div>
+          <div class="page-inner">
           <h2>Add a contact:</h2>
           <form id="new-contact">
             <div class="form-group" id="styleMe">
@@ -48,37 +50,42 @@
             <button type="submit" class="btn">Add</button>
           </form>
         </div>
+        </div>
         <div>
+          <div class="page-inner">
           <h2>Contacts:</h2>
           <form>
             <ul class="fa-ul" id="contact-list">
-
             </ul>
           </form>
+          </div>
         </div>
         <div>
+          <div class="page-inner">
           <div id="show-contact">
-            <h2> </h2>
+            <h2>Select a Contact to see their Info</h2>
             <p>First name: <span class="first-name"></span></p>
             <p>Last name: <span class="last-name"></span></p>
             <p>Address: <span class="address"></span></p>
           </div>
         </div>
+        </div>
         <div>
+          <div class="page-inner">
           <h2>Favorites:</h2>
           <ul class="fa-ul" id="favorite-list">
-
           </ul>
         </div>
-        <div class="hard p29"></div>
-        <div class="hard p30"></div>
+        </div>
+        <div class="hard"></div>
+        <div class="hard"></div>
       </div>
     </div>
 
 
-    <div id="slider-bar" class="turnjs-slider">
+    <!-- <div id="slider-bar" class="turnjs-slider">
       <div id="slider"></div>
-    </div>
+    </div> -->
   </div>
 
 
@@ -266,7 +273,7 @@
 
         start: function(e, pageObj) {
 
-          moveBar(true);
+          // moveBar(true);
 
         },
 

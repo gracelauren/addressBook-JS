@@ -8,8 +8,8 @@ body{
 }
 
 #canvas{
-	width: 960px;
-	height: 600px;
+	width: 1500px;
+	height: 900px;
 	margin: 100px auto;
 }
 
@@ -32,12 +32,12 @@ body{
 .sample-docs{
 	margin-top:20px;
 	width:942px;
-	height:600px;
+	height:900px;
 }
 
 .sample-docs .page{
-	width:471px;
-	height:600px;
+	width:560px;
+	height:800px;
 	background:white;
 
 	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
@@ -52,7 +52,7 @@ body{
 }
 
 .sample-docs .p2{
-	background-position:-471px 0;
+	background-position:-560px 0;
 }
 
 .sample-docs .p28{

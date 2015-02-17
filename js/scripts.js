@@ -50,7 +50,7 @@ $(function(){
     $("input.favorite").last().on("click", function() {
       var thisCheck = $(this);
       if (thisCheck.is(':checked')) {
-        $("ul#favorite-list").append("<li class='" + newContact.firstName + "'><i class='fa-li fa fa-smile-o'></i><span class='favorite link'>" + newContact.firstName + "</span></li>");
+        $("ul#favorite-list").append("<li class='" + newContact.firstName + "'><i class='fa-li fa fa-heart'></i><span class='favorite link'>" + newContact.firstName + "</span></li>");
         $(".favorite").last().click(addLink);
       } else {
         $("ul#favorite-list").children("li." + newContact.firstName).remove();
