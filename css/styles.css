@@ -58,6 +58,22 @@
           font-size: 25px;
           font-weight: normal;
           text-align: center; }
+          
+           p {
+          margin: 50px 0 0 0;
+          color: #000;
+          font-family: 'Bad Script', cursive;
+          font-size: 20px;
+          font-weight: normal;
+          text-align: center; }
+          
+ li {
+ margin: 50px 0 0 0;
+ color: #000;
+ font-family: 'Bad Script', cursive;
+ font-size: 20px;
+ font-weight: normal;
+ text-align: center; }
 
 
 
